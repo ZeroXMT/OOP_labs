@@ -22,12 +22,12 @@ TEST(FearNumberTest, Thu) {
 }
 
 TEST(FearNumberTest, Fri) {
-    EXPECT_TRUE(is_afraid("Пятница", 4));
+    EXPECT_TRUE(is_afraid("Пятница", 42));
     EXPECT_FALSE(is_afraid("Пятница", 3));
 }
 
 TEST(FearNumberTest, Sat) {
-    EXPECT_TRUE(is_afraid("Суббота", 42));
+    EXPECT_TRUE(is_afraid("Суббота", 56));
     EXPECT_FALSE(is_afraid("Суббота", 43));
 }
 
