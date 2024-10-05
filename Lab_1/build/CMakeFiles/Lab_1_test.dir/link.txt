@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Lab_1_test.dir/test/test.cpp.o -o Lab_1_test  -lgtest -lgtest_main
+/usr/bin/c++ CMakeFiles/Lab_1_test.dir/test/test.cpp.o -o Lab_1_test  libfunctioun.a -lgtest -lgtest_main

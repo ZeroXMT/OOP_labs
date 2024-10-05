@@ -92,6 +92,7 @@ Lab_1_test_EXTERNAL_OBJECTS =
 
 Lab_1_test: CMakeFiles/Lab_1_test.dir/test/test.cpp.o
 Lab_1_test: CMakeFiles/Lab_1_test.dir/build.make
+Lab_1_test: libfunctioun.a
 Lab_1_test: CMakeFiles/Lab_1_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/timber/Coding/OOP_labs/Lab_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab_1_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab_1_test.dir/link.txt --verbose=$(VERBOSE)

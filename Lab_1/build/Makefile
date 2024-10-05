@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named functioun
+
+# Build rule for target.
+functioun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functioun
+.PHONY : functioun
+
+# fast build rule for target.
+functioun/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functioun.dir/build.make CMakeFiles/functioun.dir/build
+.PHONY : functioun/fast
+
+#=============================================================================
 # Target rules for targets named Lab_1_main
 
 # Build rule for target.
@@ -141,6 +154,30 @@ Lab_1_test: cmake_check_build_system
 Lab_1_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_1_test.dir/build.make CMakeFiles/Lab_1_test.dir/build
 .PHONY : Lab_1_test/fast
+
+src/function.o: src/function.cpp.o
+.PHONY : src/function.o
+
+# target to build an object file
+src/function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functioun.dir/build.make CMakeFiles/functioun.dir/src/function.cpp.o
+.PHONY : src/function.cpp.o
+
+src/function.i: src/function.cpp.i
+.PHONY : src/function.i
+
+# target to preprocess a source file
+src/function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functioun.dir/build.make CMakeFiles/functioun.dir/src/function.cpp.i
+.PHONY : src/function.cpp.i
+
+src/function.s: src/function.cpp.s
+.PHONY : src/function.s
+
+# target to generate assembly for a file
+src/function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functioun.dir/build.make CMakeFiles/functioun.dir/src/function.cpp.s
+.PHONY : src/function.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -200,6 +237,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab_1_main"
 	@echo "... Lab_1_test"
+	@echo "... functioun"
+	@echo "... src/function.o"
+	@echo "... src/function.i"
+	@echo "... src/function.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

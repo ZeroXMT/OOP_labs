@@ -1,6 +1,6 @@
 #include <string>
 
-bool is_afraid(std::string day, long long number)
+bool is_afraid(const std::string& day, long long number)
 {
     if (day == "Понедельник")
     {
