@@ -14,9 +14,9 @@ int main() {
     // Добавление и удаление фигур в массив
     std::cout << std::endl << "Insert and delete" << std::endl;
     Array<Figure<double>, double> fig_array;
-    std::cout << "=================================================================" << std::endl;
+    std::cout << "-----------------------------------------------------------------" << std::endl;
     std::cout << std::boolalpha << "fig_array is empty: " <<  fig_array.is_empty() << std::endl;
-    std::cout << "=================================================================" << std::endl;
+    std::cout << "-----------------------------------------------------------------" << std::endl << std::endl;
     
     std::shared_ptr<Figure<double>> fig_1;
     try {
@@ -26,9 +26,10 @@ int main() {
         throw exception;
     }
     
-    std::cout << "fig_array size: " <<  fig_array.size() << std::endl;
+    
     fig_array.print();
     std::cout << "=================================================================" << std::endl;
+    std::cout << "fig_array size: " <<  fig_array.size() << ", total area: " << fig_array.total_area() << std::endl << std::endl;
     std::shared_ptr<Figure<double>> fig_2;
     std::shared_ptr<Figure<double>> fig_3;
     try {
@@ -40,14 +41,14 @@ int main() {
         throw exception;
     }
 
-    std::cout << "fig_array size: " <<  fig_array.size() << std::endl;
     fig_array.print();
     std::cout << "=================================================================" << std::endl;
+    std::cout << "fig_array size: " <<  fig_array.size() << ", total area: " << fig_array.total_area() << std::endl << std::endl;
     fig_array.remove(1);
     std::cout << "fig_array size: " <<  fig_array.size() << std::endl;
     fig_array.print();
     std::cout << "=================================================================" << std::endl;
-    std::cout << "fig_array size: " <<  fig_array.size() << std::endl;
+    std::cout << "fig_array size: " <<  fig_array.size() << ", total area: " << fig_array.total_area() << std::endl << std::endl;
     try {
         fig_array.insert(fig_3, 1);
     } catch (std::bad_alloc const & exception) {
@@ -55,6 +56,7 @@ int main() {
     }
     fig_array.print();
     std::cout << "=================================================================" << std::endl;
+    std::cout << "fig_array size: " <<  fig_array.size() << ", total area: " << fig_array.total_area() << std::endl << std::endl;
 
 
     // Операции с фигурами
@@ -62,9 +64,10 @@ int main() {
     std::cout << "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
 
     for (size_t i = 0; i < fig_array.size(); ++i) {
-        std::cout << fig_array[i].get() << ' ' << *fig_array[i] << ' ' << fig_array[i]->center().x
-        << ' ' << fig_array[i]->center().y << ' ' << static_cast<double>(*fig_array[i]) << std::endl;
+        std::cout << fig_array[i].get() << ' ' << *fig_array[i] << " center_x: " << fig_array[i]->center().x
+        << " center_y: " << fig_array[i]->center().y << " area " << static_cast<double>(*fig_array[i]) << std::endl;
     }
+    std::cout << "fig_array size: " <<  fig_array.size() << ", total area: " << fig_array.total_area() << std::endl;
     
     std::cout << "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
 

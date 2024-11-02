@@ -35,6 +35,8 @@ public:
     size_t size() const;
 
     void print() const;
+
+    double total_area() const;
 };
 
 template<typename T, typename U>
@@ -114,11 +116,6 @@ Array<T, U>& Array<T, U>::operator=(Array<T, U>&& array) {
     return *this;
 }
 
-
-// template<typename T, typename U>
-// Array<T>::~Array() {
-//     std::cout << "Destructor" << std::endl; // Можно поставить  = default
-// }
 
 template<typename T, typename U>
 std::shared_ptr<T>& Array<T, U>::operator[](size_t idx) {
@@ -200,5 +197,18 @@ void Array<T, U>::print() const {
         std::cout << *_figures[i] << std::endl;
     }
 }
+
+template<typename T, typename U>
+double Array<T, U>::total_area() const {
+    U sum = 0;
+    for (size_t i = 0; i < _sz; ++i) {
+        if (_figures[i]) {
+            sum += _figures[i]->area();
+        }
+    }
+    return sum;
+}
+
+
 
 #endif

@@ -15,7 +15,7 @@ file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false ${TEST_DIR}/*.cpp)
 
 # add_library(${CMAKE_PROJECT_NAME}_lib ${SOURCES})
 add_executable(${CMAKE_PROJECT_NAME}_exe ${SOURCE_DIR}/main.cpp)
-add_executable(${CMAKE_PROJECT_NAME}_tests ${TEST_DIR})
+add_executable(${CMAKE_PROJECT_NAME}_tests ${TEST_SOURCES})
 
 find_package(GTest REQUIRED)
 target_include_directories(${CMAKE_PROJECT_NAME}_tests PRIVATE ${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})

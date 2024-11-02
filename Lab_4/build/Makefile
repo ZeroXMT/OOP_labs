@@ -176,6 +176,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_4_exe.dir/build.make CMakeFiles/Lab_4_exe.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+test/fig_test.o: test/fig_test.cpp.o
+.PHONY : test/fig_test.o
+
+# target to build an object file
+test/fig_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_4_tests.dir/build.make CMakeFiles/Lab_4_tests.dir/test/fig_test.cpp.o
+.PHONY : test/fig_test.cpp.o
+
+test/fig_test.i: test/fig_test.cpp.i
+.PHONY : test/fig_test.i
+
+# target to preprocess a source file
+test/fig_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_4_tests.dir/build.make CMakeFiles/Lab_4_tests.dir/test/fig_test.cpp.i
+.PHONY : test/fig_test.cpp.i
+
+test/fig_test.s: test/fig_test.cpp.s
+.PHONY : test/fig_test.s
+
+# target to generate assembly for a file
+test/fig_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_4_tests.dir/build.make CMakeFiles/Lab_4_tests.dir/test/fig_test.cpp.s
+.PHONY : test/fig_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -190,6 +214,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... test/fig_test.o"
+	@echo "... test/fig_test.i"
+	@echo "... test/fig_test.s"
 .PHONY : help
 
 

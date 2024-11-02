@@ -6,21 +6,21 @@
 #include "../include/trapezoid.hpp"
 #include "../include/Array.hpp"
 
-TEST(point2d, All) {
-    Point2D<int> p_1 {1, 2};
+TEST(Point, All) {
+    Point<int> p_1 {1, 2};
     ASSERT_TRUE(p_1.x == 1 && p_1.y == 2);
     
-    Point2D<double> p_2 {1.3, 4.5};
+    Point<double> p_2 {1.3, 4.5};
     ASSERT_TRUE(p_2.x == 1.3 && p_2.y == 4.5);
 
     ASSERT_TRUE(are_equal(p_1.x, p_1.x, 1e-6));
     ASSERT_TRUE(are_equal(p_2.y, p_2.y, 1e-6));
     ASSERT_TRUE(!are_equal(static_cast<double>(p_1.y), p_2.x, 1e-6));
 
-    Point2D<int> p_3 {0, 0};
-    Point2D<int> p_4 {0, 2};
-    Point2D<int> p_5 {2, 2};
-    Point2D<int> p_6 {2, 0};
+    Point<int> p_3 {0, 0};
+    Point<int> p_4 {0, 2};
+    Point<int> p_5 {2, 2};
+    Point<int> p_6 {2, 0};
 
     ASSERT_TRUE(are_sides_parallel(p_3, p_4, p_5, p_6));
     ASSERT_TRUE(are_sides_parallel(p_3, p_6, p_5, p_4));
