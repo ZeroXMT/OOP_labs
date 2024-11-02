@@ -1,0 +1,1 @@
+/usr/bin/c++ -o Lab_4_tests  -lpthread /usr/local/lib/libgtest_main.a /usr/local/lib/libgtest.a
