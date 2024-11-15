@@ -82,13 +82,10 @@ double Rectangle<T>::area() const noexcept {
     double len_3 = get_len(_first, _fourth);
     
     double a, b;
-    if (len_1 <= len_2 && len_1 <= len_3) a = len_1;
-    if (len_2 <= len_1 && len_2 <= len_3) a = len_2;
-    if (len_3 <= len_1 && len_3 <= len_2) a = len_3;
 
-    if (len_1 >= len_2 && len_1 >= len_3) b = (len_1 + len_2 + len_3) - a - len_1;
-    if (len_2 >= len_1 && len_2 >= len_3) b = (len_1 + len_2 + len_3) - a - len_2;
-    if (len_3 >= len_1 && len_3 >= len_2) b = (len_1 + len_2 + len_3) - a - len_3;
+    a = std::min(len_1, std::min(len_2, len_3));
+    
+    b = (len_1 + len_2 + len_3) - a - std::max(len_1, std::max(len_2, len_3));
 
     return a * b;
 }
