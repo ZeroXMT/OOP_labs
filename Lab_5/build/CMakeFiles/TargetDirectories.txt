@@ -1,0 +1,5 @@
+/home/timber/Coding/OOP_labs/Lab_5/build/CMakeFiles/Lab_5_exe.dir
+/home/timber/Coding/OOP_labs/Lab_5/build/CMakeFiles/Lab_5_tests.dir
+/home/timber/Coding/OOP_labs/Lab_5/build/CMakeFiles/test.dir
+/home/timber/Coding/OOP_labs/Lab_5/build/CMakeFiles/edit_cache.dir
+/home/timber/Coding/OOP_labs/Lab_5/build/CMakeFiles/rebuild_cache.dir
