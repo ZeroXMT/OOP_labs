@@ -21,7 +21,7 @@ target_include_directories(${CMAKE_PROJECT_NAME}_exe PUBLIC ${INCLUDE_DIR})
 # GTest integration
 find_package(GTest REQUIRED)
 add_executable(${CMAKE_PROJECT_NAME}_tests ${TEST_DIR}/test.cpp ${SOURCES})
-target_include_directories(${CMAKE_PROJECT_NAME}_tests PRIVATE ${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
+target_include_directories(${CMAKE_PROJECT_NAME}_tests PUBLIC PRIVATE ${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 target_link_libraries(${CMAKE_PROJECT_NAME}_tests GTest::GTest GTest::Main pthread)
 
 enable_testing()

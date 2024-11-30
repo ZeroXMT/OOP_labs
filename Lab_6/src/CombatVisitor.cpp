@@ -1,5 +1,5 @@
-#include "../include/CombatVisitor.hpp"
-#include "../include/NPC.hpp"
+#include "CombatVisitor.hpp"
+#include "NPC.hpp"
 #include <cmath>
 #include <iostream>
 
@@ -18,8 +18,8 @@ void CombatVisitor::handleCombat(NPC& attacker, NPC& defender) {
 
     if (canAttack(attacker, defender)) {
         if (shouldKill(attacker, defender)) {
-            std::cout << attacker.getName() << " killed " << defender.getName() << std::endl;
             toKill.insert(&defender);
+            notify(attacker.getName() + " killed " + defender.getName());
         }
     }
 }
@@ -42,4 +42,33 @@ bool CombatVisitor::shouldKill(const NPC& attacker, const NPC& defender) {
         return true;
     }
     return false;
+}
+
+void CombatVisitor::performCombat() {
+    toKill.clear(); // Clear previous kills
+
+    // Collect toKill set based on turn-based combat
+    for (size_t i = 0; i < npcList.size(); ++i) {
+        NPC& attacker = *npcList[i];
+        if (toKill.find(&attacker) != toKill.end()) {
+            continue; // Skip NPCs marked for killing
+        }
+        for (size_t j = 0; j < npcList.size(); ++j) {
+            if (i == j) continue; // Skip self
+            NPC& defender = *npcList[j];
+            if (toKill.find(&defender) != toKill.end()) {
+                continue; // Skip NPCs marked for killing
+            }
+            handleCombat(attacker, defender);
+        }
+    }
+
+    // Remove killed NPCs
+    std::vector<std::unique_ptr<NPC>> newNpcList;
+    for (auto& npc : npcList) {
+        if (toKill.find(npc.get()) == toKill.end()) {
+            newNpcList.push_back(std::move(npc));
+        }
+    }
+    npcList = std::move(newNpcList);
 }

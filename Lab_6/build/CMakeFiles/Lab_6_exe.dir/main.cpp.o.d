@@ -187,8 +187,15 @@ CMakeFiles/Lab_6_exe.dir/main.cpp.o: \
  /home/timber/Coding/OOP_labs/Lab_6/include/Observer.hpp \
  /home/timber/Coding/OOP_labs/Lab_6/include/CombatVisitor.hpp \
  /home/timber/Coding/OOP_labs/Lab_6/include/Visitor.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/include/Subject.hpp \
  /usr/include/c++/14.2.1/set /usr/include/c++/14.2.1/bits/stl_tree.h \
  /usr/include/c++/14.2.1/bits/node_handle.h \
  /usr/include/c++/14.2.1/bits/stl_set.h \
  /usr/include/c++/14.2.1/bits/stl_multiset.h \
- /usr/include/c++/14.2.1/bits/erase_if.h
+ /usr/include/c++/14.2.1/bits/erase_if.h \
+ /home/timber/Coding/OOP_labs/Lab_6/include/FileLogger.hpp \
+ /usr/include/c++/14.2.1/fstream /usr/include/c++/14.2.1/bits/codecvt.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/14.2.1/bits/fstream.tcc \
+ /home/timber/Coding/OOP_labs/Lab_6/include/ConsoleLogger.hpp

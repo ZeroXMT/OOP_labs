@@ -1,9 +1,8 @@
-CMakeFiles/Lab_6_tests.dir/src/CombatVisitor.cpp.o: \
- /home/timber/Coding/OOP_labs/Lab_6/src/CombatVisitor.cpp \
+CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o: \
+ /home/timber/Coding/OOP_labs/Lab_6/src/FileLogger.cpp \
  /usr/include/stdc-predef.h \
- /home/timber/Coding/OOP_labs/Lab_6/include/CombatVisitor.hpp \
- /home/timber/Coding/OOP_labs/Lab_6/include/Visitor.hpp \
- /home/timber/Coding/OOP_labs/Lab_6/include/NPC.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/include/FileLogger.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/include/Observer.hpp \
  /usr/include/c++/14.2.1/string \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -112,28 +111,8 @@ CMakeFiles/Lab_6_tests.dir/src/CombatVisitor.cpp.o: \
  /usr/include/c++/14.2.1/bits/uses_allocator.h \
  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/14.2.1/tuple /usr/include/c++/14.2.1/bits/ranges_util.h \
- /home/timber/Coding/OOP_labs/Lab_6/include/Observer.hpp \
- /home/timber/Coding/OOP_labs/Lab_6/include/Subject.hpp \
- /usr/include/c++/14.2.1/vector \
- /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/14.2.1/bits/stl_vector.h \
- /usr/include/c++/14.2.1/bits/stl_bvector.h \
- /usr/include/c++/14.2.1/bits/vector.tcc /usr/include/c++/14.2.1/set \
- /usr/include/c++/14.2.1/bits/stl_tree.h \
- /usr/include/c++/14.2.1/ext/aligned_buffer.h \
- /usr/include/c++/14.2.1/bits/node_handle.h \
- /usr/include/c++/14.2.1/bits/stl_set.h \
- /usr/include/c++/14.2.1/bits/stl_multiset.h \
- /usr/include/c++/14.2.1/bits/erase_if.h /usr/include/c++/14.2.1/memory \
- /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
- /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14.2.1/bits/align.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h \
- /usr/include/c++/14.2.1/bits/unique_ptr.h \
- /usr/include/c++/14.2.1/ostream /usr/include/c++/14.2.1/ios \
- /usr/include/c++/14.2.1/exception \
+ /usr/include/c++/14.2.1/fstream /usr/include/c++/14.2.1/istream \
+ /usr/include/c++/14.2.1/ios /usr/include/c++/14.2.1/exception \
  /usr/include/c++/14.2.1/bits/exception_ptr.h \
  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/14.2.1/typeinfo \
@@ -166,53 +145,10 @@ CMakeFiles/Lab_6_tests.dir/src/CombatVisitor.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
- /usr/include/c++/14.2.1/bits/ostream.tcc \
- /usr/include/c++/14.2.1/bits/shared_ptr.h \
- /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/14.2.1/bits/allocated_ptr.h \
- /usr/include/c++/14.2.1/ext/concurrence.h \
- /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/14.2.1/bits/atomic_base.h \
- /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
- /usr/include/c++/14.2.1/bits/atomic_wait.h \
- /usr/include/c++/14.2.1/cstdint /usr/include/c++/14.2.1/climits \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
- /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/syscall.h \
- /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
- /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h \
- /usr/include/c++/14.2.1/bits/std_mutex.h \
- /usr/include/c++/14.2.1/backward/auto_ptr.h \
- /usr/include/c++/14.2.1/bits/ranges_uninitialized.h \
- /usr/include/c++/14.2.1/bits/ranges_algobase.h \
- /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
- /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /home/timber/Coding/OOP_labs/Lab_6/include/NPC.hpp \
- /usr/include/c++/14.2.1/cmath /usr/include/math.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/14.2.1/bits/specfun.h \
- /usr/include/c++/14.2.1/limits /usr/include/c++/14.2.1/tr1/gamma.tcc \
- /usr/include/c++/14.2.1/tr1/special_function_util.h \
- /usr/include/c++/14.2.1/tr1/bessel_function.tcc \
- /usr/include/c++/14.2.1/tr1/beta_function.tcc \
- /usr/include/c++/14.2.1/tr1/ell_integral.tcc \
- /usr/include/c++/14.2.1/tr1/exp_integral.tcc \
- /usr/include/c++/14.2.1/tr1/hypergeometric.tcc \
- /usr/include/c++/14.2.1/tr1/legendre_function.tcc \
- /usr/include/c++/14.2.1/tr1/modified_bessel_func.tcc \
- /usr/include/c++/14.2.1/tr1/poly_hermite.tcc \
- /usr/include/c++/14.2.1/tr1/poly_laguerre.tcc \
- /usr/include/c++/14.2.1/tr1/riemann_zeta.tcc \
- /usr/include/c++/14.2.1/iostream /usr/include/c++/14.2.1/istream \
- /usr/include/c++/14.2.1/bits/istream.tcc
+ /usr/include/c++/14.2.1/ostream /usr/include/c++/14.2.1/bits/ostream.tcc \
+ /usr/include/c++/14.2.1/bits/istream.tcc \
+ /usr/include/c++/14.2.1/bits/codecvt.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/14.2.1/bits/fstream.tcc \
+ /usr/include/c++/14.2.1/iostream

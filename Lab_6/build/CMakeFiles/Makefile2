@@ -88,12 +88,12 @@ clean: CMakeFiles/Lab_6_tests.dir/clean
 CMakeFiles/Lab_6_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Lab_6_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Lab_6_exe"
 .PHONY : CMakeFiles/Lab_6_exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab_6_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lab_6_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles 0
 .PHONY : CMakeFiles/Lab_6_exe.dir/rule
@@ -119,12 +119,12 @@ CMakeFiles/Lab_6_exe.dir/clean:
 CMakeFiles/Lab_6_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target Lab_6_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20 "Built target Lab_6_tests"
 .PHONY : CMakeFiles/Lab_6_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab_6_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lab_6_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles 0
 .PHONY : CMakeFiles/Lab_6_tests.dir/rule

@@ -3,6 +3,8 @@
 #include <memory>
 #include "include/Factory.hpp"
 #include "include/CombatVisitor.hpp"
+#include "include/FileLogger.hpp"
+#include "include/ConsoleLogger.hpp"
 
 int main() {
     std::vector<std::unique_ptr<NPC>> npcList;
@@ -64,22 +66,15 @@ int main() {
                 std::cin >> combatRange;
                 CombatVisitor visitor(combatRange, npcList); // Pass both parameters
 
-                // Collect toKill set based on turn-based combat
-                for (auto& attacker : npcList) {
-                    if (visitor.getToKill().find(attacker.get()) != visitor.getToKill().end()) {
-                        continue; // Skip NPCs marked for killing
-                    }
-                    visitor.visit(*attacker);
-                }
+                FileLogger fileLogger;
+                ConsoleLogger consoleLogger;
+                visitor.attach(&fileLogger);
+                visitor.attach(&consoleLogger);
 
-                // Remove killed NPCs
-                std::vector<std::unique_ptr<NPC>> newNpcList;
-                for (auto& npc : npcList) {
-                    if (visitor.getToKill().find(npc.get()) == visitor.getToKill().end()) {
-                        newNpcList.push_back(std::move(npc));
-                    }
-                }
-                npcList = std::move(newNpcList);
+                visitor.performCombat();
+
+                visitor.detach(&fileLogger);
+                visitor.detach(&consoleLogger);
                 break;
             }
             case 6:

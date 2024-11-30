@@ -100,10 +100,24 @@ CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/timber/Coding/OOP_labs/Lab_6/src/CombatVisitor.cpp -o CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.s
 
+CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o: CMakeFiles/Lab_6_exe.dir/flags.make
+CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o: /home/timber/Coding/OOP_labs/Lab_6/src/ConsoleLogger.cpp
+CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o: CMakeFiles/Lab_6_exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o -MF CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o.d -o CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o -c /home/timber/Coding/OOP_labs/Lab_6/src/ConsoleLogger.cpp
+
+CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/timber/Coding/OOP_labs/Lab_6/src/ConsoleLogger.cpp > CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.i
+
+CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/timber/Coding/OOP_labs/Lab_6/src/ConsoleLogger.cpp -o CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.s
+
 CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o: CMakeFiles/Lab_6_exe.dir/flags.make
 CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o: /home/timber/Coding/OOP_labs/Lab_6/src/Factory.cpp
 CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o: CMakeFiles/Lab_6_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o -MF CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o.d -o CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o -c /home/timber/Coding/OOP_labs/Lab_6/src/Factory.cpp
 
 CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.i: cmake_force
@@ -114,10 +128,24 @@ CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/timber/Coding/OOP_labs/Lab_6/src/Factory.cpp -o CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.s
 
+CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o: CMakeFiles/Lab_6_exe.dir/flags.make
+CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o: /home/timber/Coding/OOP_labs/Lab_6/src/FileLogger.cpp
+CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o: CMakeFiles/Lab_6_exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o -MF CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o.d -o CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o -c /home/timber/Coding/OOP_labs/Lab_6/src/FileLogger.cpp
+
+CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/timber/Coding/OOP_labs/Lab_6/src/FileLogger.cpp > CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.i
+
+CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/timber/Coding/OOP_labs/Lab_6/src/FileLogger.cpp -o CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.s
+
 CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o: CMakeFiles/Lab_6_exe.dir/flags.make
 CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o: /home/timber/Coding/OOP_labs/Lab_6/src/SlaveTrader.cpp
 CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o: CMakeFiles/Lab_6_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o -MF CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o.d -o CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o -c /home/timber/Coding/OOP_labs/Lab_6/src/SlaveTrader.cpp
 
 CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.i: cmake_force
@@ -131,7 +159,7 @@ CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.s: cmake_force
 CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o: CMakeFiles/Lab_6_exe.dir/flags.make
 CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o: /home/timber/Coding/OOP_labs/Lab_6/src/Squirrel.cpp
 CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o: CMakeFiles/Lab_6_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o -MF CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o.d -o CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o -c /home/timber/Coding/OOP_labs/Lab_6/src/Squirrel.cpp
 
 CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.i: cmake_force
@@ -145,7 +173,7 @@ CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.s: cmake_force
 CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o: CMakeFiles/Lab_6_exe.dir/flags.make
 CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o: /home/timber/Coding/OOP_labs/Lab_6/src/Subject.cpp
 CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o: CMakeFiles/Lab_6_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o -MF CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o.d -o CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o -c /home/timber/Coding/OOP_labs/Lab_6/src/Subject.cpp
 
 CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.i: cmake_force
@@ -159,7 +187,7 @@ CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.s: cmake_force
 CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o: CMakeFiles/Lab_6_exe.dir/flags.make
 CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o: /home/timber/Coding/OOP_labs/Lab_6/src/WanderingKnight.cpp
 CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o: CMakeFiles/Lab_6_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o -MF CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o.d -o CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o -c /home/timber/Coding/OOP_labs/Lab_6/src/WanderingKnight.cpp
 
 CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.i: cmake_force
@@ -174,7 +202,9 @@ CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.s: cmake_force
 Lab_6_exe_OBJECTS = \
 "CMakeFiles/Lab_6_exe.dir/main.cpp.o" \
 "CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.o" \
+"CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o" \
 "CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o" \
+"CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o" \
 "CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o" \
 "CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o" \
 "CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o" \
@@ -185,7 +215,9 @@ Lab_6_exe_EXTERNAL_OBJECTS =
 
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/main.cpp.o
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.o
+Lab_6_exe: CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o
+Lab_6_exe: CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o
@@ -193,7 +225,7 @@ Lab_6_exe: CMakeFiles/Lab_6_exe.dir/src/WanderingKnight.cpp.o
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/build.make
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/compiler_depend.ts
 Lab_6_exe: CMakeFiles/Lab_6_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Lab_6_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/timber/Coding/OOP_labs/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Lab_6_exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab_6_exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

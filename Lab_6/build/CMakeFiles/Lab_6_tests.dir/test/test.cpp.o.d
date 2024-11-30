@@ -274,4 +274,5 @@ CMakeFiles/Lab_6_tests.dir/test/test.cpp.o: \
  /home/timber/Coding/OOP_labs/Lab_6/test/../include/Observer.hpp \
  /home/timber/Coding/OOP_labs/Lab_6/test/../include/CombatVisitor.hpp \
  /home/timber/Coding/OOP_labs/Lab_6/test/../include/Visitor.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/test/../include/Subject.hpp \
  /home/timber/Coding/OOP_labs/Lab_6/test/../include/NPC.hpp

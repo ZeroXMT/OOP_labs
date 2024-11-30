@@ -203,6 +203,33 @@ src/CombatVisitor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/src/CombatVisitor.cpp.s
 .PHONY : src/CombatVisitor.cpp.s
 
+src/ConsoleLogger.o: src/ConsoleLogger.cpp.o
+.PHONY : src/ConsoleLogger.o
+
+# target to build an object file
+src/ConsoleLogger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/src/ConsoleLogger.cpp.o
+.PHONY : src/ConsoleLogger.cpp.o
+
+src/ConsoleLogger.i: src/ConsoleLogger.cpp.i
+.PHONY : src/ConsoleLogger.i
+
+# target to preprocess a source file
+src/ConsoleLogger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/src/ConsoleLogger.cpp.i
+.PHONY : src/ConsoleLogger.cpp.i
+
+src/ConsoleLogger.s: src/ConsoleLogger.cpp.s
+.PHONY : src/ConsoleLogger.s
+
+# target to generate assembly for a file
+src/ConsoleLogger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/src/ConsoleLogger.cpp.s
+.PHONY : src/ConsoleLogger.cpp.s
+
 src/Factory.o: src/Factory.cpp.o
 .PHONY : src/Factory.o
 
@@ -229,6 +256,33 @@ src/Factory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/src/Factory.cpp.s
 .PHONY : src/Factory.cpp.s
+
+src/FileLogger.o: src/FileLogger.cpp.o
+.PHONY : src/FileLogger.o
+
+# target to build an object file
+src/FileLogger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/src/FileLogger.cpp.o
+.PHONY : src/FileLogger.cpp.o
+
+src/FileLogger.i: src/FileLogger.cpp.i
+.PHONY : src/FileLogger.i
+
+# target to preprocess a source file
+src/FileLogger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/src/FileLogger.cpp.i
+.PHONY : src/FileLogger.cpp.i
+
+src/FileLogger.s: src/FileLogger.cpp.s
+.PHONY : src/FileLogger.s
+
+# target to generate assembly for a file
+src/FileLogger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_exe.dir/build.make CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_6_tests.dir/build.make CMakeFiles/Lab_6_tests.dir/src/FileLogger.cpp.s
+.PHONY : src/FileLogger.cpp.s
 
 src/SlaveTrader.o: src/SlaveTrader.cpp.o
 .PHONY : src/SlaveTrader.o
@@ -379,9 +433,15 @@ help:
 	@echo "... src/CombatVisitor.o"
 	@echo "... src/CombatVisitor.i"
 	@echo "... src/CombatVisitor.s"
+	@echo "... src/ConsoleLogger.o"
+	@echo "... src/ConsoleLogger.i"
+	@echo "... src/ConsoleLogger.s"
 	@echo "... src/Factory.o"
 	@echo "... src/Factory.i"
 	@echo "... src/Factory.s"
+	@echo "... src/FileLogger.o"
+	@echo "... src/FileLogger.i"
+	@echo "... src/FileLogger.s"
 	@echo "... src/SlaveTrader.o"
 	@echo "... src/SlaveTrader.i"
 	@echo "... src/SlaveTrader.s"

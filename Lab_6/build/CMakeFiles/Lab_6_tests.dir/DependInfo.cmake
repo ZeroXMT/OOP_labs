@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/timber/Coding/OOP_labs/Lab_6/src/CombatVisitor.cpp" "CMakeFiles/Lab_6_tests.dir/src/CombatVisitor.cpp.o" "gcc" "CMakeFiles/Lab_6_tests.dir/src/CombatVisitor.cpp.o.d"
+  "/home/timber/Coding/OOP_labs/Lab_6/src/ConsoleLogger.cpp" "CMakeFiles/Lab_6_tests.dir/src/ConsoleLogger.cpp.o" "gcc" "CMakeFiles/Lab_6_tests.dir/src/ConsoleLogger.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/Factory.cpp" "CMakeFiles/Lab_6_tests.dir/src/Factory.cpp.o" "gcc" "CMakeFiles/Lab_6_tests.dir/src/Factory.cpp.o.d"
+  "/home/timber/Coding/OOP_labs/Lab_6/src/FileLogger.cpp" "CMakeFiles/Lab_6_tests.dir/src/FileLogger.cpp.o" "gcc" "CMakeFiles/Lab_6_tests.dir/src/FileLogger.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/SlaveTrader.cpp" "CMakeFiles/Lab_6_tests.dir/src/SlaveTrader.cpp.o" "gcc" "CMakeFiles/Lab_6_tests.dir/src/SlaveTrader.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/Squirrel.cpp" "CMakeFiles/Lab_6_tests.dir/src/Squirrel.cpp.o" "gcc" "CMakeFiles/Lab_6_tests.dir/src/Squirrel.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/Subject.cpp" "CMakeFiles/Lab_6_tests.dir/src/Subject.cpp.o" "gcc" "CMakeFiles/Lab_6_tests.dir/src/Subject.cpp.o.d"

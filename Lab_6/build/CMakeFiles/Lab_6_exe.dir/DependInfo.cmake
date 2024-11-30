@@ -10,7 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/timber/Coding/OOP_labs/Lab_6/main.cpp" "CMakeFiles/Lab_6_exe.dir/main.cpp.o" "gcc" "CMakeFiles/Lab_6_exe.dir/main.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/CombatVisitor.cpp" "CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.o" "gcc" "CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.o.d"
+  "/home/timber/Coding/OOP_labs/Lab_6/src/ConsoleLogger.cpp" "CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o" "gcc" "CMakeFiles/Lab_6_exe.dir/src/ConsoleLogger.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/Factory.cpp" "CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o" "gcc" "CMakeFiles/Lab_6_exe.dir/src/Factory.cpp.o.d"
+  "/home/timber/Coding/OOP_labs/Lab_6/src/FileLogger.cpp" "CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o" "gcc" "CMakeFiles/Lab_6_exe.dir/src/FileLogger.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/SlaveTrader.cpp" "CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o" "gcc" "CMakeFiles/Lab_6_exe.dir/src/SlaveTrader.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/Squirrel.cpp" "CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o" "gcc" "CMakeFiles/Lab_6_exe.dir/src/Squirrel.cpp.o.d"
   "/home/timber/Coding/OOP_labs/Lab_6/src/Subject.cpp" "CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o" "gcc" "CMakeFiles/Lab_6_exe.dir/src/Subject.cpp.o.d"

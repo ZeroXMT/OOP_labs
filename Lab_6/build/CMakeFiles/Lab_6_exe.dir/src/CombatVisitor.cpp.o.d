@@ -1,9 +1,9 @@
 CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.o: \
  /home/timber/Coding/OOP_labs/Lab_6/src/CombatVisitor.cpp \
  /usr/include/stdc-predef.h \
- /home/timber/Coding/OOP_labs/Lab_6/src/../include/CombatVisitor.hpp \
- /home/timber/Coding/OOP_labs/Lab_6/src/../include/Visitor.hpp \
- /home/timber/Coding/OOP_labs/Lab_6/src/../include/NPC.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/include/CombatVisitor.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/include/Visitor.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/include/NPC.hpp \
  /usr/include/c++/14.2.1/string \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -112,17 +112,19 @@ CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.o: \
  /usr/include/c++/14.2.1/bits/uses_allocator.h \
  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/14.2.1/tuple /usr/include/c++/14.2.1/bits/ranges_util.h \
- /home/timber/Coding/OOP_labs/Lab_6/src/../include/Observer.hpp \
- /usr/include/c++/14.2.1/set /usr/include/c++/14.2.1/bits/stl_tree.h \
+ /home/timber/Coding/OOP_labs/Lab_6/include/Observer.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/include/Subject.hpp \
+ /usr/include/c++/14.2.1/vector \
+ /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/14.2.1/bits/stl_vector.h \
+ /usr/include/c++/14.2.1/bits/stl_bvector.h \
+ /usr/include/c++/14.2.1/bits/vector.tcc /usr/include/c++/14.2.1/set \
+ /usr/include/c++/14.2.1/bits/stl_tree.h \
  /usr/include/c++/14.2.1/ext/aligned_buffer.h \
  /usr/include/c++/14.2.1/bits/node_handle.h \
  /usr/include/c++/14.2.1/bits/stl_set.h \
  /usr/include/c++/14.2.1/bits/stl_multiset.h \
- /usr/include/c++/14.2.1/bits/erase_if.h /usr/include/c++/14.2.1/vector \
- /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/14.2.1/bits/stl_vector.h \
- /usr/include/c++/14.2.1/bits/stl_bvector.h \
- /usr/include/c++/14.2.1/bits/vector.tcc /usr/include/c++/14.2.1/memory \
+ /usr/include/c++/14.2.1/bits/erase_if.h /usr/include/c++/14.2.1/memory \
  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/14.2.1/bits/align.h \
@@ -192,7 +194,7 @@ CMakeFiles/Lab_6_exe.dir/src/CombatVisitor.cpp.o: \
  /usr/include/c++/14.2.1/bits/ranges_algobase.h \
  /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /home/timber/Coding/OOP_labs/Lab_6/src/../include/NPC.hpp \
+ /home/timber/Coding/OOP_labs/Lab_6/include/NPC.hpp \
  /usr/include/c++/14.2.1/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
