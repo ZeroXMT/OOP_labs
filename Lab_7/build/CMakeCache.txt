@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Lab_6
+CMAKE_PROJECT_NAME:STATIC=Lab_7
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -253,6 +253,15 @@ Lab_6_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Lab_6_SOURCE_DIR:STATIC=/home/timber/Coding/OOP_labs/Lab_7
+
+//Value Computed by CMake
+Lab_7_BINARY_DIR:STATIC=/home/timber/Coding/OOP_labs/Lab_7/build
+
+//Value Computed by CMake
+Lab_7_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Lab_7_SOURCE_DIR:STATIC=/home/timber/Coding/OOP_labs/Lab_7
 
 
 ########################

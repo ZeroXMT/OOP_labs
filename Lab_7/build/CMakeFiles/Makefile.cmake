@@ -68,6 +68,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Lab_6_exe.dir/DependInfo.cmake"
-  "CMakeFiles/Lab_6_tests.dir/DependInfo.cmake"
+  "CMakeFiles/Lab_7_exe.dir/DependInfo.cmake"
+  "CMakeFiles/Lab_7_tests.dir/DependInfo.cmake"
   )

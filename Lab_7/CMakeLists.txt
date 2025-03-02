@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(Lab_6)
+project(Lab_7)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -25,4 +25,4 @@ target_include_directories(${CMAKE_PROJECT_NAME}_tests PUBLIC PRIVATE ${gtest_SO
 target_link_libraries(${CMAKE_PROJECT_NAME}_tests GTest::GTest GTest::Main pthread)
 
 enable_testing()
-add_test(NAME Lab_6 COMMAND ${CMAKE_PROJECT_NAME}_tests)
+add_test(NAME Lab_7 COMMAND ${CMAKE_PROJECT_NAME}_tests)
